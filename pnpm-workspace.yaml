@@ -1,4 +1,3 @@
-
 allowBuilds:
   node-pty: true
   esbuild: true
@@ -10,3 +9,6 @@ overrides:
 
 minimumReleaseAgeExclude:
   - "@sentry/*"
+
+patchedDependencies:
+  '@agent-native/core@0.77.14': patches/@agent-native__core@0.77.14.patch
