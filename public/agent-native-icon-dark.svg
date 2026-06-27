@@ -1,10 +1,10 @@
-<svg width="114" height="66" viewBox="0 0 114 66" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M24.5537 65.7695H0L15.0859 39.4619L37.708 0L60.4912 39.4619H39.6396L24.5537 65.7695Z" fill="white"/>
-<path d="M89.446 0H114L76.2921 65.7704H51.7383L89.446 0Z" fill="url(#paint0_linear_3201_29)"/>
-<defs>
-<linearGradient id="paint0_linear_3201_29" x1="101.702" y1="67.4791" x2="113.672" y2="-37.4275" gradientUnits="userSpaceOnUse">
-<stop stop-color="#00B5FF"/>
-<stop offset="1" stop-color="#48FFE4"/>
-</linearGradient>
-</defs>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- CineVision C lettermark with film aperture motif -->
+  <circle cx="16" cy="16" r="14" stroke="#b8a06a" stroke-width="1.5" fill="none"/>
+  <path d="M22 10.5C20.3 9.0 18.3 8.2 16 8.2C11.7 8.2 8.2 11.7 8.2 16C8.2 20.3 11.7 23.8 16 23.8C18.3 23.8 20.3 23.0 22 21.5" stroke="#b8a06a" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <!-- small lens dots -->
+  <circle cx="16" cy="5.5" r="1" fill="#b8a06a" opacity="0.5"/>
+  <circle cx="16" cy="26.5" r="1" fill="#b8a06a" opacity="0.5"/>
+  <circle cx="5.5" cy="16" r="1" fill="#b8a06a" opacity="0.5"/>
+  <circle cx="26.5" cy="16" r="1" fill="#b8a06a" opacity="0.5"/>
 </svg>
