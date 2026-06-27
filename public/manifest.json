@@ -1,11 +1,11 @@
 {
-  "name": "My App",
-  "short_name": "My App",
-  "description": "Workspace app for My App.",
+  "name": "CineVision Studio",
+  "short_name": "CineVision",
+  "description": "Internal AI workspace for CineVision vertical video operations.",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#111111",
-  "theme_color": "#18181B",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
   "icons": [
     {
       "src": "icon-192.svg",

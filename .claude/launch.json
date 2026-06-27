@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dev",
+      "runtimeExecutable": "/Users/hunter/projects/agentnative-cinema/my-app/.claude/start-dev.sh",
+      "runtimeArgs": [],
+      "port": 8081,
+      "autoPort": false
+    }
+  ]
+}

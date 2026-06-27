@@ -30,7 +30,7 @@ import stylesheet from "./global.css?url";
 configureTracking({
   getDefaultProps: (_name, properties) => ({
     ...properties,
-    app: "my-app",
+    app: "cinevision-studio",
     template: "chat",
   }),
 });
@@ -61,7 +61,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
           dangerouslySetInnerHTML={{ __html: LOCALE_INIT_SCRIPT }}
         />
         <link rel="manifest" href={appPath("/manifest.json")} />
-        <meta name="theme-color" content="#18181B" />
+        <meta name="theme-color" content="#0a0a0a" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta
           name="apple-mobile-web-app-status-bar-style"

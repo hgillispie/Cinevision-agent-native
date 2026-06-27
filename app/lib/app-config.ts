@@ -1,5 +1,5 @@
-const rawAppName = "my-app";
-const rawAppTitle = "My App";
+const rawAppName = "cinevision-studio";
+const rawAppTitle = "CineVision Studio";
 
 const APP_NAME_PLACEHOLDER = "{" + "{APP_NAME}}";
 const APP_TITLE_PLACEHOLDER = "{" + "{APP_TITLE}}";
