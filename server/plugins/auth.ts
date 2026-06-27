@@ -1,17 +1,14 @@
 import { createAuthPlugin } from "@agent-native/core/server";
 
-const rawAppTitle = "My App";
-const appTitle = rawAppTitle === "{" + "{APP_TITLE}}" ? "Chat" : rawAppTitle;
-
 export default createAuthPlugin({
+  googleOnly: true,
   marketing: {
-    appName: appTitle,
-    tagline:
-      "Start from a chat-first agent-native app and add actions, screens, and workflows as you grow.",
+    appName: "CineVision Studio",
+    tagline: "Internal AI workspace for vertical video operations.",
     features: [
-      "Full-page chat with durable threads and tool call history",
-      "Add actions once and use them from chat, UI, HTTP, MCP, A2A, and CLI",
-      "Plug in your own agent runtime or build on the included app-agent loop",
+      "Build internal tools with a conversational agent",
+      "Connect data sources, APIs, and video pipelines",
+      "Configure and extend your CineVision workflow",
     ],
   },
 });

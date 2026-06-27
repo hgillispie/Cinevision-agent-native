@@ -1,12 +1,15 @@
 import {
   AgentChatSurface,
   markAgentChatHomeHandoff,
-  openAgentSettings,
   useT,
 } from "@agent-native/core/client";
 import { IconSettings, IconX } from "@tabler/icons-react";
 import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router";
+
+function openWorkspaceSettings() {
+  window.dispatchEvent(new CustomEvent("agent-panel:set-mode", { detail: { mode: "workspace" } }));
+}
 
 import { APP_TITLE } from "@/lib/app-config";
 import { TAB_ID } from "@/lib/tab-id";
@@ -72,7 +75,7 @@ function WorkspaceSettingsBar() {
       <div className="flex items-center gap-2">
         <button
           type="button"
-          onClick={() => openAgentSettings()}
+          onClick={() => openWorkspaceSettings()}
           className="flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-xs text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
         >
           <IconSettings className="size-3.5" />
@@ -116,6 +119,22 @@ const PM_TIPS = [
           Try: <em>"Add a video upload action"</em>,{" "}
           <em>"Connect to our content database"</em>, or{" "}
           <em>"Create a dashboard for campaign metrics"</em>.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: "builder",
+    text: (
+      <>
+        <p className="font-medium" style={{ color: "hsl(40, 28%, 68%)" }}>
+          Want to change the UI or layout?
+        </p>
+        <p className="mt-1 text-muted-foreground">
+          The agent can wire up data and actions — but for visual design
+          changes (components, pages, styling), open a branch in your{" "}
+          <strong className="text-foreground">Builder project</strong> and
+          edit the UX there. Code changes deploy back here automatically.
         </p>
       </>
     ),
